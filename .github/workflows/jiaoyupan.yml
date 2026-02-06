@@ -23,7 +23,7 @@ jobs:
 
       - name: Run jiaoyuepan
         env:
-          anlu1314_COOKIE: ${{ secrets.jiaoyuepan_COOKIE }}
+          jiaoyuepan_COOKIE: ${{ secrets.jiaoyuepan_COOKIE }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
         run: |
           python jiaoyuepan.py
