@@ -89,7 +89,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    send_notification_message_collection(f"安鹿轩签到通知 - {datetime.now().strftime('%Y/%m/%d')}")
+    send_notification_message_collection(f"教育盘签到通知 - {datetime.now().strftime('%Y/%m/%d')}")
 
 # 云函数入口
 def handler(event, context):
