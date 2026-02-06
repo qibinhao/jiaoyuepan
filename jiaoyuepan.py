@@ -78,7 +78,8 @@ def signin():
         #if signin_error_msg:
             #print(f"签到错误信息: {signin_error_msg.group(1)}")
         #print(response.text)
-        fn_print(response.text.encode().decode("unicode_escape"))
+        #fn_print(response.text.encode().decode("unicode_escape"))
+        fn_print(response.text)
     else:
         #print("签到失败")
         fn_print("签到失败")
