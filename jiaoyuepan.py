@@ -40,7 +40,8 @@ params = {
 
 payload = {
   'formhash': "380f12aa",
-  'qdxq': "kx"
+  'qdxq': "kx",
+  'sign': "44df785b1376db5e"
 }
 
 #def publish_wechat(SERVER_CHAN_KEY, sign_result_vo, duration):
