@@ -13,14 +13,14 @@ COOKIES = os.getenv('jiaoyuepan_COOKIE', '')
 #SERVER_CHAN_KEY = os.getenv('SERVER_CHAN', '') // Service酱推送的key
 
 headers = {
-  'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0",
+  'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
   'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
   'accept-language': "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
   'cache-control': "max-age=0",
-  'origin': "https://vip.jiaoyupan.cc",
+  'origin': "https://go.jiaoyupan.cc",
   'priority': "u=0, i",
-  'referer': "https://vip.jiaoyupan.cc/dsu_paulsign-sign.html",
-  'sec-ch-ua': "\"Not;A=Brand\";v=\"99\", \"Microsoft Edge\";v=\"139\", \"Chromium\";v=\"139\"",
+  'referer': "https://go.jiaoyupan.cc/dsu_paulsign-sign.html",
+  'sec-ch-ua': "\"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"144\", \"Microsoft Edge\";v=\"144\"",
   'sec-ch-ua-mobile': "?0",
   'sec-ch-ua-platform': "\"Windows\"",
   'sec-fetch-dest': "iframe",
